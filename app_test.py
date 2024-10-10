@@ -16,7 +16,7 @@ topics_to_categories = {0: "Technology", 1: "Politics", 2: "Entertainment", 3: "
 st.title("News Text Classification")
 
 # Input text from user
-text_input = st.text_area("Enter the news text:")
+text_input = st.text_area("Enter the news text:", height=400)
 
 if st.button("Classify"):
     if text_input:
